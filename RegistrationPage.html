@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" style="display: flex; align-items: center; justify-content: center; height: 100vh; text-align: center;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body>
+    <h1>Registration Page..</h1>
+
+    <form action="RegistrationPage.php" method="post">
+        <label for="fname">Full name: </label>
+        <input id="fname" type="text" name="Full name" required>
+
+        <br><br>
+
+        <label for="mail">Email: </label>
+        <input id="mail" type="email" name="email" required>
+
+        <br><br>
+
+        <label for="male">male</label>
+        <input id="male" type="radio" name="Gender" required>
+        <label for="feminine">feminine</label>
+        <input id="feminine" type="radio" name="Gender">
+
+        <br><br>
+
+        <label for="nationality">Your nationality: </label>
+        <select name="nationality" id="nationality">
+            <option value="">Palestinian</option>
+            <option value="">Egyptian</option>
+            <option value="">Algerian</option>
+            <option value="">Syria</option>
+        </select>
+
+        <br><br>
+
+        <input type="checkbox" required>
+        <label for="" dir="rtl">هل انت موافق على الشروط والاحكام.</label>
+
+        <br><br>
+
+        <button type="submit">Register</button>
+
+        <br><br>
+
+        <a href="ContactUs.html">تواصل معنا</a>
+
+    </form>
+
+    <br><br><br>
+
+    <footer>
+        <p>حقوق النشر محفوظة &copy;|| Mousa Qweder</p>
+    </footer>
+
+</body>
+</html>
